@@ -46,3 +46,25 @@ body {
     padding: 14px 39px;
     border-radius: 35px;
 }
+.jumbotron{
+background-image: url(/assets/pochacco.jpg);
+height: 500px;
+
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+
+color: #f2f2f2
+
+/* padding: 280px 90px */
+
+}
+.jumbotron h1 {
+    font-size: 56px;
+    font-weight: 700;
+}
+.jumbotron p {
+    opacity: .6
+}
